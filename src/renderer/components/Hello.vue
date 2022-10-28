@@ -8,7 +8,7 @@ const msg = 'Electron + Vue3 template';
       <p style="color:white">Header</p>
     </a-layout-header>
     <a-layout-content>
-      Content
+        <webview src="https://baidu.com" style="height: 100%; width: 100%;"/>
     </a-layout-content>
     <a-layout-footer>
       Footer

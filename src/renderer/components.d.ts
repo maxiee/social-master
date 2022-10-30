@@ -12,9 +12,6 @@ declare module '@vue/runtime-core' {
     ALayoutContent: typeof import('ant-design-vue/es')['LayoutContent']
     ALayoutFooter: typeof import('ant-design-vue/es')['LayoutFooter']
     ALayoutHeader: typeof import('ant-design-vue/es')['LayoutHeader']
-    ALayoutSider: typeof import('ant-design-vue/es')['LayoutSider']
     ARow: typeof import('ant-design-vue/es')['Row']
-    ASpace: typeof import('ant-design-vue/es')['Space']
-    ATypographyTitle: typeof import('ant-design-vue/es')['TypographyTitle']
   }
 }

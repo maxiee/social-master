@@ -2,7 +2,7 @@
 export default {
   mounted() {
     const webview1 = document.querySelector('#webview1');
-    setTimeout(() => webview1.openDevTools(), 3000);
+    // setTimeout(() => webview1.openDevTools(), 3000);
   }
 }
 </script>

@@ -14,15 +14,20 @@ export default {
     </a-layout-header>
     <a-layout-content>
       <a-row style="height: 100%">
-        <a-col :span="12">
+        <a-col :span="8">
           <webview
             id="webview1"
             src="https://m.weibo.cn" 
             style="height: 100%; width: 100%;"/>
         </a-col>
-        <a-col :span="12">
+        <a-col :span="8">
           <webview 
             src="https://twitter.com" 
+            style="height: 100%; width: 100%;"/>
+        </a-col>
+        <a-col :span="8">
+          <webview 
+            src="https://sn.angry.im/web/" 
             style="height: 100%; width: 100%;"/>
         </a-col>
       </a-row> 
